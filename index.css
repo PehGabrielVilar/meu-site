@@ -1,8 +1,39 @@
-a{
-	color:white;
-	text-decoration: none;
+body {
+	background-color: #A9A9A9;
+	margin: 0%;
+}
+.menu {
+	background-color: black;
+    margin: 0%;
+    padding-left: 0;
+}
+.menu li {
+	padding: 0%;
+    margin: 0%;
+    display: inline-block; 
+    list-style:none; 
+    padding-top: 20px;
+    padding-bottom: 24px;    
+}
+.menu a   {
+	padding: 24px 28px 24px 28px;
+    color: white;
+    text-decoration: none;
 	font-size: 18px ;
 	font-family: Showcard Gothic;
+}
+.menu a:hover {
+    background-color: white;
+    color: black ;
+    border-style: hidden;
+}
+.container { 
+    width: 80%;
+    margin: auto;
+}
+.container1 { 
+    width: 80%;
+    margin: auto;
 }
 h1{
 	font-family: Panther V01;
@@ -16,19 +47,21 @@ h4{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: justify;
 }
-body {
-	background-color: #A9A9A9;
-	width: 80%;
-	margin: auto;
+.lado_esquerdo {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	width: 50%;
+	text-align: justify;
+
 }
-.menu li {
-	display: inline-block; 
-	list-style:none;       
-}
-#menu {
-text-align: center;
-background-color: black;
-}
-span {
-	color: white;
+.lado_direito {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	width: 50%;
+	text-align: justify;
+}	
+img.displayed {
+    display: block;
+    margin-left: auto;
+	margin-right: auto 
 }
